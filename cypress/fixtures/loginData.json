@@ -1,0 +1,26 @@
+[
+  {
+    "name": "валидные данные",
+    "verification": {
+      "login": "qamid@qamid.ru",
+      "pass": "qamid",
+      "containText": "Управление залами"
+    }
+  },
+  {
+    "name": "невалидный пароль",
+    "verification": {
+      "login": "qamid@qamid.ru",
+      "pass": "123",
+      "containText": "Ошибка авторизации!"
+    }
+  },
+  {
+    "name": "невалидный логин",
+    "verification": {
+      "login": "aert@rfrr.tt",
+      "pass": "qamid",
+      "containText": "Ошибка авторизации!"
+    }
+  }
+]

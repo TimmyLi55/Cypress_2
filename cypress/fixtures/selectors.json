@@ -1,0 +1,15 @@
+{
+  "name": "Selectors",
+  "dayForWeek": ".page-nav__day",
+  "movie": ".movie",
+  "movieTitle": ".movie__title",
+  "byingMovieTitle": ".buying__info-title",
+  "pageSubtitle": ".page-header__subtitle",
+  "loginInput": "[for=\"email\"]",
+  "passInput": "[for=\"pwd\"]",
+  "loginButton": ".login__button",
+  "acceptButton": ".acceptin-button",
+  "checkTitle": ".ticket__check-title",
+  "targetFilmName": ".conf-step__list > :nth-child(2)",
+  "targetHallName": ".ticket__info-wrapper > :nth-child(3)"
+}
